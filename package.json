@@ -1,0 +1,17 @@
+{
+  "name": "nook2019",
+  "version": "1.0.0",
+  "description": "slides for the nook2019",
+  "main": "index.js",
+  "repository": "https://github.com/github:runjak/nook2019",
+  "author": "Jakob Runge",
+  "license": "CC BY-SA 4.0",
+  "private": true,
+  "dependencies": {
+    "reveal-md": "^3.3.1"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/reveal-md ./slides.md",
+    "build": "./node_modules/.bin/reveal-md ./slides.md --static slides"
+  }
+}
