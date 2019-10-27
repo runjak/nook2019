@@ -10,9 +10,9 @@ revealOptions:
 
 Du hast 5 Geld in der Schweitz<br />- wo ist dein Währungssymbol?
 
----
+-v-
 
-## Moin
+### Moin
 
-* Jakob - [@sicarius](https://twitter.com/sicarius)
-* Slides: [github.com/runjak/nook2019](https://github.com/runjak/nook2019)
+- Jakob - [@sicarius](https://twitter.com/sicarius)
+- Slides: [github.com/runjak/nook2019](https://github.com/runjak/nook2019)
