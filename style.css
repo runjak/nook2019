@@ -4,4 +4,9 @@
 
 .reveal section img {
   background-color: white;
+  border: none;
+}
+
+.reveal pre {
+  width: 100%;
 }
