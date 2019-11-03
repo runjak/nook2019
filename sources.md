@@ -50,3 +50,10 @@ Content with the unicode consortium
 
 - [Pepe Silvia](https://www.youtube.com/watch?v=_nTpsv9PNqo)
   - `youtube-dl` + `ffmpeg`
+
+## Further reading
+
+Content that was of interest to me in a similar scope.
+
+- [Dark corners ofr Unicode](https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/)
+- [stream_libarchive: workaround various types of locale braindeath](https://github.com/mpv-player/mpv/commit/1e70e82baa9193f6f027338b0fab0f5078971fbe)
