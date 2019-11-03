@@ -39,3 +39,14 @@ Content with the unicode consortium
 
 - [runjak/nook2019](https://github.com/runjak/nook2019)
 - [runjak/ideal-goggles](https://github.com/runjak/ideal-goggles)
+
+## Logos
+
+- [ISO](<https://en.wikipedia.org/wiki/File:ISO_Logo_(Red_square).svg>)
+- [Unicode](https://en.wikipedia.org/wiki/File:Unicode_logo.svg)
+- [GNU](https://en.wikipedia.org/wiki/File:Heckert_GNU_white.svg)
+
+## Images
+
+- [Pepe Silvia](https://www.youtube.com/watch?v=_nTpsv9PNqo)
+  - `youtube-dl` + `ffmpeg`

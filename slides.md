@@ -16,8 +16,8 @@ Du hast 5 Geld in der Schweitz<br />- wo ist dein Währungssymbol?
 
 - speaker: Jakob Runge [@sicarius](https://twitter.com/sicarius)
 - slides: [github.com/runjak/nook2019](https://github.com/runjak/nook2019)
-  AT CH NET | Review currency symbol position
-  -v-
+
+-v-
 
 ### Outline
 
@@ -73,13 +73,47 @@ Instead of the companys API we decided to use the Browsers API: `Number.toLocale
 // IE 11:          '5.00 fr.'
 ```
 
+---
+
+## Wer spielt mit?
+
+<img src="img/pepe.silvia.png" style="height: 500px; border: none;" />
+
 -v-
 
-Standards, die mitspielen:
+### International Organization for Standardization
+
+<img src="img/iso.svg" style="height: 500px; border: none;" />
+
+-v-
 
 - Sprachcodes: [ISO 639](https://en.wikipedia.org/wiki/ISO_639)
   - Siehe nicht: Macrolanguages, Glottolog
 - Ländercodes: [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166)
   - Siehe nicht: `EU`
 - Währungscodes: [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)
-  - Siehe nicht: Cryptocurrencies (BTC vs. XBT), Minerale (XAU, XAG)
+  - Siehe nicht: Cryptocurrencies (BTC vs. XBT), Metalle (XAU, XAG)
+
+-v-
+
+### Unicode-Konsortium
+
+<img src="img/unicode.svg" style="height: 500px; border: none;" />
+
+-v-
+
+- Common Locale Data Repository: [CLDR](http://cldr.unicode.org/)
+- International components for unicode: [ICU](http://site.icu-project.org/)
+
+-v-
+
+### GNU C Library (glibc)
+
+<img src="img/gnu.svg" style="height: 500px; border: none;" />
+
+-v-
+
+- [glibc locales project](https://sourceware.org/glibc/wiki/Locales)
+- [libc-locales](https://sourceware.org/ml/libc-locales/)
+
+---
