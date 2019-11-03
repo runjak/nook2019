@@ -1,0 +1,7 @@
+.reveal .slide-background {
+  background-image: linear-gradient(#871d8f, #632790);
+}
+
+.reveal section img {
+  background-color: white;
+}
