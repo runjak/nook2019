@@ -307,10 +307,64 @@ Repository: [github.com/unicode-org/cldr](https://github.com/unicode-org/cldr)
 -v-
 
 ![Guide de Typographie](img/guide.de.typographie.png)
-<img src="img/cern-logo.png" style="background-color: transparent;">
+<img src="img/cern-logo.png" style="background-color: transparent; box-shadow: none;">
 
 -v-
 
-Federal Chancellery:
+Federal Chancellery (via google translate):
 
-> The number is written in three-digit increments …, and is followed (and never preceded) by the indication of the currency…
+> The number is written in three-digit increments …, and is followed
+> (and never preceded) by the indication of the currency…
+
+-v-
+
+### glibc mailing list
+
+1. Da ist anders - was ist richtig?
+2. Da ist anders - ich glaub glibc ist falsch
+3. ja nu ¯\\\_(ツ)\_/¯
+
+Nachlesbar [hier](https://sourceware.org/ml/libc-locales/2019-q2/msg00050.html)
+
+---
+
+<img src="img/goggles.png" style="background-color: transparent; box-shadow: none;">
+<img src="img/sparkles.png" style="background-color: transparent; box-shadow: none;">
+
+-v-
+
+### Die Idee
+
+Wir machen folgendes:
+
+- alles selbst bauen
+- eine alberne Menge Währungsbeträge generieren
+- ein bischen automatisierter vergleichen
+
+-v-
+
+### Vergleichen
+
+- Gemeinsame locales
+  - Beware of pseudo locales
+- Unterschiedliche Töpfe
+  - equal formatting
+  - equal whitespace
+  - same chars
+  - different
+
+-v-
+
+### Anschauen
+
+- gutes beispiel
+- schlechtes beispiel
+- stats
+
+-v-
+
+### Offene Fragen
+
+- WTF `fr_CH`
+- Streit suchen
+- Bischen statistik bauen
