@@ -36,7 +36,13 @@ Du hast 5 Geld in der Schweitz<br />- wo ist dein Währungssymbol?
 
 -v-
 
-<!-- Draft, ending slide -->
+Danke!
+
+- Support
+- Ohren während der Sache
+- Aufmerksamkeit
+
+  <!-- Draft, ending slide -->
 
 - Quellen und Slides gibt es hier: [github.com/runjak/nook2019](https://github.com/runjak/nook2019)
 - ideal-goggles 🥽✨ gibt es hier: [github.com/runjak/ideal-goggles](https://github.com/runjak/ideal-goggles)
@@ -225,3 +231,86 @@ Next up: ICU source
 <img src="img/lost.in.da.sauce.gif" style="height: 500px;" />
 
 -v-
+
+```bash
+# since commit 3bfe134:
+# icu4c/source/data/locales/fr_CH.txt
+fr_CH{
+    NumberElements{
+        latn{
+            patterns{
+                currencyFormat{"#,##0.00 ¤ ;-#,##0.00 ¤"}
+…
+# icu4c/source/data/locales/de_CH.txt
+de_CH{
+…
+                currencyFormat{"¤ #,##0.00;¤-#,##0.00"}
+…
+```
+
+<!-- till commit e25796f -->
+
+-v-
+
+Beachtet diese Schönheit:
+
+<h1>5¤</h1>
+
+- U+00A4 currency sign
+- 'Scarab'
+- ISO 4217: `XXX`
+
+<!-- the meta to our nook -->
+
+---
+
+#### Interlude: Google Streetview
+
+-v-
+
+![Streetview: unreadable menu](img/unreadable.menu.png)
+
+-v-
+
+![Streetview: arms of a building](img/iso.geneva.png)
+
+-v-
+
+![Streetview: people from the building](img/iso.photo.png)
+
+---
+
+## Un🕴c�de
+
+-v-
+
+- fr_CH: `"#,##0.00 ¤ ;-#,##0.00 ¤"`
+- de_CH: `"¤ #,##0.00;¤-#,##0.00"`
+- [CLDR charts 32](https://unicode.org/cldr/charts/32/)
+
+-v-
+
+### Das Survey Tool
+
+![Screenshot vom Survey Tool](img/survey.tool.png)
+
+Repository: [github.com/unicode-org/cldr](https://github.com/unicode-org/cldr)
+
+-v-
+
+### Endlich ein Ticket
+
+![Screenshot vom unicode jira](img/cldr-9370.png)
+
+[CLDR-9370](https://unicode-org.atlassian.net/browse/CLDR-9370)
+
+-v-
+
+![Guide de Typographie](img/guide.de.typographie.png)
+<img src="img/cern-logo.png" style="background-color: transparent;">
+
+-v-
+
+Federal Chancellery:
+
+> The number is written in three-digit increments …, and is followed (and never preceded) by the indication of the currency…
