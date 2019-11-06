@@ -1,5 +1,5 @@
 ---
-title: Putting your money on locales - Nook 2018
+title: Putting your money on locales - Nook 2019
 separator: ---
 verticalSeparator: -v-
 revealOptions:
@@ -12,57 +12,20 @@ Du hast 5 Geld in der Schweitz<br />- wo ist dein Währungssymbol?
 
 -v-
 
-### Moin
-
-- speaker: Jakob Runge [@sicarius](https://twitter.com/sicarius)
-- slides: [github.com/runjak/nook2019](https://github.com/runjak/nook2019)
-
--v-
-
-### Outline
-
-- Wer spielt mit?
-- Was wird gespielt?
-- Moin & outline
-- Prelude to tragedy
-- Was war noch gleich ne locale?
-- Welche Organisationen sind beteiligt?
-- Wo kommt das Problem eigentlich her?
-  - libc?
-  - v8 -> icu!
-  - source pls?
-- Wie ist das Problem jetzt?
-- Wie ist die Eskalation jetzt?
-
--v-
-
-Danke!
-
-- Support
-- Ohren während der Sache
-- Aufmerksamkeit
-
-  <!-- Draft, ending slide -->
-
-- Quellen und Slides gibt es hier: [github.com/runjak/nook2019](https://github.com/runjak/nook2019)
-- ideal-goggles 🥽✨ gibt es hier: [github.com/runjak/ideal-goggles](https://github.com/runjak/ideal-goggles)
-- Spätere Fragen und Unfug gerne hier:<br/>[Twitter: @sicarius](https://twitter.com/sicarius)
-
----
-
-## Prelude to tragedy
-
--v-
-
 Was war noch gleich ne Locale?
 
-ur_IN pa_IN ta_LK
+Sprachen:
 
 - ur: [Urdu](https://en.wikipedia.org/wiki/Urdu)
 - pa: [Punjabi](https://en.wikipedia.org/wiki/Punjabi_language)
 - ta: [Tamil](https://de.wikipedia.org/wiki/Tamil)
+
+Regionen:
+
 - IN: [India](https://en.wikipedia.org/wiki/India)
 - LK: [Sri Lanka](https://en.wikipedia.org/wiki/Sri_Lanka)
+
+<div class="fragment">ur_IN pa_IN ta_LK</div>
 
 ---
 
@@ -264,7 +227,11 @@ Beachtet diese Schönheit:
 
 ---
 
-#### Interlude: Google Streetview
+#### Interlude
+
+- Leute
+- Internet
+- Google Streetview
 
 -v-
 
@@ -338,28 +305,52 @@ Nachlesbar [hier](https://sourceware.org/ml/libc-locales/2019-q2/msg00050.html)
 Wir machen folgendes:
 
 - alles selbst bauen
-- eine alberne Menge Währungsbeträge generieren
+- ein paar Währungsbeträge generieren
 - ein bischen automatisierter vergleichen
-
--v-
-
-### Vergleichen
-
-- Gemeinsame locales
-  - Beware of pseudo locales
-- Unterschiedliche Töpfe
-  - equal formatting
-  - equal whitespace
-  - same chars
-  - different
 
 -v-
 
 ### Anschauen
 
-- gutes beispiel
-- schlechtes beispiel
-- stats
+![ideal-goggles start](img/ideal-goggles.start.png)
+
+-v-
+
+#### equal formatting
+
+![ideal-goggles en_GB](img/ideal-goggles.equal.png)
+
+-v-
+
+#### equal without whitespace
+
+![ideal-goggles de_DE](img/ideal-goggles.whitespace.png)
+
+> Liebe Grüße an den \&nbsp;
+
+-v-
+
+#### same chars
+
+![ideal-goggles en_DK](img/ideal-goggles.same.png)
+
+-v-
+
+#### different 1
+
+![ideal-goggles ro_RO](img/ideal-goggles.different.1.png)
+
+-v-
+
+#### different 2
+
+![ideal-goggles ur_IN](img/ideal-goggles.different.2.png)
+
+-v-
+
+#### Stats
+
+![ideal-goggles stats](img/ideal-goggles.stats.png)
 
 -v-
 
@@ -367,4 +358,18 @@ Wir machen folgendes:
 
 - WTF `fr_CH`
 - Streit suchen
-- Bischen statistik bauen
+- Mehr statistik bauen
+
+---
+
+## Danke!
+
+- Für Support
+- Für offene Ohren
+- Für eure Aufmerksamkeit
+
+-v-
+
+- Slides, Quellen: [github.com/runjak/nook2019](https://github.com/runjak/nook2019)
+- 🥽✨: [github.com/runjak/ideal-goggles](https://github.com/runjak/ideal-goggles)
+- Spätere Fragen und Unfug: [@sicarius](https://twitter.com/sicarius)
