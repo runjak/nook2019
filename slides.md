@@ -6,7 +6,7 @@ revealOptions:
   transition: 'slide'
 ---
 
-# Putting your money on locales
+![opening image](img/opening.jpg)
 
 Du hast 5 Geld in der Schweitz<br />- wo ist dein Währungssymbol?
 
